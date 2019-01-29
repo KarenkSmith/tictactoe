@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="board-container flex-container flex-column flex-center">
+        <div class="flex-container">
+
+        <h1>TRAP TRUMP TOE</h1> 
+        <h2>turn goes here</h2>
+        </div>
+        <div class="board flex-container flex-wrap">
+            <div class="square2" id="0"></div>
+            <div class="square" id="1"></div>
+            <div class="square2" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square2" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square2" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square2" id="8"></div>
+        </div>
+    </div>
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <button onClick="startGame()">Lock Him Up</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body onload="startGame();">
+    <h1>TRUMP TRAP TOE</h1>
+    <div id="message">Message Goes Here</div>
+    <table>
+        <tr>
+            <td class="square" onClick="nextMove(this)" id="s1"></td>
+            <td class="square" onClick="nextMove(this)" id="s2"></td>
+            <td class="square" onClick="nextMove(this)" id="s3"></td>
+        </tr> 
+        <tr>
+            <td class="square" onClick="nextMove(this)" id="s4"></td>
+            <td class="square" onClick="nextMove(this)" id="s5"></td>
+            <td class="square" onClick="nextMove(this)" id="s6"></td>
+        </tr>   
+            <td class="square" onClick="nextMove(this)" id="s7"></td>
+            <td class="square" onClick="nextMove(this)" id="s8"></td>
+            <td class="square" onClick="nextMove(this)" id="s9"></td>
+        </tr>
+    </table>
+    <button><a href="javascript: startGame()">Lock Him Up</a></button>
+</body>
+</html>

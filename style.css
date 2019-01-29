@@ -1,0 +1,50 @@
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 42px;
+}
+h2 {
+    
+
+}
+a {
+    
+}
+
+body {
+    width: 600px;
+    margin: auto;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid grey;
+    font-size: 32px;
+    text-align: center;
+}
+.square:hover {
+    background-image: url("https://flagladyusa.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/M/N/MNylGlo-Russia_4_1/2-ft.-X-3-ft.-Nyl-Glo-Russia-Flag-20.jpg");
+}
+
+
+/* #1:hover {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqv7SB4MTAyrdXkHMVEbA_F592vql6elZ3c9IVVUJMY8P3sdG0");
+} */
+
+/* .endgame {
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: orange;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+} */
